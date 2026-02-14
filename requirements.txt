@@ -1,0 +1,6 @@
+tree-sitter==0.22.3
+tree-sitter-cpp==0.22.3
+tree-sitter-python==0.21.0
+clang==20.1.5
+libclang==18.1.1
+jedi==0.19.2

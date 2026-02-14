@@ -1,0 +1,5 @@
+if(EXISTS "/data/workspace/Private-Model-Training/ConstructPrivateProject/search_library_usage/20251011121809/EmberEmu_Hexi/Hexi/tests/unit_tests[1]_tests.cmake")
+  include("/data/workspace/Private-Model-Training/ConstructPrivateProject/search_library_usage/20251011121809/EmberEmu_Hexi/Hexi/tests/unit_tests[1]_tests.cmake")
+else()
+  add_test(unit_tests_NOT_BUILT unit_tests_NOT_BUILT)
+endif()

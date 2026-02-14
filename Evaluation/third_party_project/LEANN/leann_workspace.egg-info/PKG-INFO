@@ -1,0 +1,57 @@
+Metadata-Version: 2.4
+Name: leann-workspace
+Version: 0.1.0
+Requires-Python: >=3.10
+License-File: LICENSE
+Requires-Dist: leann-core
+Requires-Dist: leann-backend-hnsw
+Requires-Dist: typer>=0.12.3
+Requires-Dist: numpy>=1.26.0
+Requires-Dist: torch
+Requires-Dist: tqdm
+Requires-Dist: datasets>=2.15.0
+Requires-Dist: evaluate
+Requires-Dist: colorama
+Requires-Dist: boto3
+Requires-Dist: protobuf==4.25.3
+Requires-Dist: sglang
+Requires-Dist: ollama
+Requires-Dist: requests>=2.25.0
+Requires-Dist: sentence-transformers>=3.0.0
+Requires-Dist: transformers<4.46
+Requires-Dist: openai>=1.0.0
+Requires-Dist: PyPDF2>=3.0.0
+Requires-Dist: pdfplumber>=0.11.0
+Requires-Dist: pymupdf>=1.26.0
+Requires-Dist: pypdfium2>=4.30.0
+Requires-Dist: llama-index>=0.12.44
+Requires-Dist: llama-index-readers-file>=0.4.0
+Requires-Dist: llama-index-vector-stores-faiss>=0.4.0
+Requires-Dist: llama-index-embeddings-huggingface>=0.5.5
+Requires-Dist: ipykernel==6.29.5
+Requires-Dist: msgpack>=1.1.1
+Requires-Dist: mlx>=0.26.3; sys_platform == "darwin" and platform_machine == "arm64"
+Requires-Dist: mlx-lm>=0.26.0; sys_platform == "darwin" and platform_machine == "arm64"
+Requires-Dist: psutil>=5.8.0
+Requires-Dist: pybind11>=3.0.0
+Requires-Dist: pathspec>=0.12.1
+Requires-Dist: nbconvert>=7.16.6
+Requires-Dist: gitignore-parser>=0.1.12
+Requires-Dist: astchunk>=0.1.0
+Requires-Dist: tree-sitter>=0.20.0
+Requires-Dist: tree-sitter-python>=0.20.0
+Requires-Dist: tree-sitter-java>=0.20.0
+Requires-Dist: tree-sitter-c-sharp>=0.20.0
+Requires-Dist: tree-sitter-typescript>=0.20.0
+Requires-Dist: torchvision>=0.23.0
+Requires-Dist: einops
+Requires-Dist: seaborn
+Provides-Extra: diskann
+Requires-Dist: leann-backend-diskann; extra == "diskann"
+Provides-Extra: documents
+Requires-Dist: beautifulsoup4>=4.13.0; extra == "documents"
+Requires-Dist: python-docx>=0.8.11; extra == "documents"
+Requires-Dist: docx2txt>=0.9; extra == "documents"
+Requires-Dist: openpyxl>=3.1.0; extra == "documents"
+Requires-Dist: pandas>=2.2.0; extra == "documents"
+Dynamic: license-file
